@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* header styles */
+
+.navbar {
+    height: 85px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    float: left;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    float: right;
+    padding-right: 50px;
+}
+
+.header-logo {
+    height: 36px;
+    text-align: right;
+}
+
+.navbar-menu {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.navbar-search {
+    margin: 40px;
+}
+
+.navbar-find-dealer {
+    margin: 10px;
+    font-size: 14px;
+}
+
+
+/* Banner Styles */
+
+.main-banner {
+    height: 630px;
+    background-image: url("../images/bmw-g310rr-top-speed-on-race-track.jpg");
+    background-repeat: repeat;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-size: contain;
+    margin: 0;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-content {
+    margin: 40px;
+    width: auto;
+    height: auto;
+}
+
+.banner-main-head {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.banner-sub-head {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner-btn-explore {
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px;
+    height: 42px;
+    width: 180px;
+    transition: 0.5s;
+}
+
+.banner-btn-explore:hover {
+    background-color: #0062ff;
+    color: white;
+}
+
+
+/* Goto Buttons */
+
+.goto-menu {
+    width: auto;
+    margin: 0;
+    background-color: #16171a;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.btn-goto-menu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    transition: 00.5s;
+}
+
+.btn-goto-menu:hover {
+    color: #0062ff;
+}
+
+.goto-menu-icon {
+    margin: auto 10px;
+}
+
+.goto-menu-text {
+    font-size: 17px;
+}
+
+
+/* Photo menu */
+
+#gallary {
+    background-color: #2b2e33;
+    margin: 0;
+}
+
+.photo-menu {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212326;
+    margin-bottom: 7.5px;
+}
+
+.photo-menu-text {
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 00.2s;
+}
+
+.photo-menu-text:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* Photo gallary */
+
+.photo-gallary {
+    position: relative;
+}
+
+.photo-gallary-row {
+    display: flex;
+    height: auto;
+}
+
+.photo-gallary-col {
+    height: 459px;
+    position: relative;
+}
+
+.photo-gallary-col-50 {
+    width: 50%;
+    background-image: url("../images/gallary-img1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo-gallary-col-25 {
+    width: 23.7%;
+    background-image: url("../images/gallary-img2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.photo-gallary-facebook {
+    width: 23.7%;
+    background-color: #0062ff;
+    margin: auto;
+    display: flex;
+}
+
+.gallary-fb-text {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    display: block;
+}
+
+.gallary-fb-logo {
+    width: 80px;
+    margin: auto 20px;
+    display: block;
+}
+
+.gallary-col-left {
+    margin: 7.5px 7.5px 7.5px 15px;
+}
+
+.gallary-col-right {
+    margin: 7.5px 15px 7.5px 7.5px;
+}
+
+.gallary-col-middle {
+    margin: 7.5px 7.5px 7.5px 7.5px;
+}
+
+.photo-gallary-col .gallary-inner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gallary-inner {
+    background-color: white;
+    height: 18%;
+    vertical-align: bottom;
+    padding: 20px;
+    transition: 00.5s;
+}
+
+.gallary-inner-100 {
+    width: 88.45%;
+}
+
+.gallary-inner-50 {
+    width: 50%;
+}
+
+.gallary-inner:hover {
+    height: 22%;
+}
+
+.gallary-inner:hover .gallary-inner-line {
+    background-color: #0062ff;
+}
+
+.gallary-inner-text-head {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.gallary-inner-line {
+    width: 90%;
+    height: 5px;
+    background-color: rgb(148, 148, 148);
+    bottom: 20px;
+    position: absolute;
+    transition: 00.5s;
+}
+
+.load-more {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212326;
+}
+
+.btn-load-more {
+    background-color: black;
+    font-size: 16px;
+    font-weight: 700;
+    height: 42px;
+    width: 180px;
+    transition: 0.5s;
+    color: white;
+    margin: 50px auto;
+    border: 0;
+}
+
+.back-to-top {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212326;
+}
+
+.btn-back-to-top {
+    background-color: #00000000;
+    font-size: 16px;
+    font-weight: 600;
+    height: 42px;
+    width: 180px;
+    transition: 0.5s;
+    color: white;
+    margin: 50px auto;
+    border: 0;
+}
+
+.btn-load-more:hover {
+    background-color: #0062ff;
+}
+
+.btn-back-to-top {
+    transition: 00.3s;
+}
+
+.btn-back-to-top:hover {
+    padding-bottom: 15px;
+}
+
+
+/* Footer */
+
+.footer-row {
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.footer-col-left {
+    flex: 50%;
+    padding-right: 60px;
+}
+
+.footer-socials {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon-con {
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+
+.footer-social-icon {
+    height: 18px;
+    margin: 18px;
+    justify-content: center;
+    color: #919191;
+    transition: 0.3s;
+}
+
+.footer-icon-text {
+    font-size: 16px;
+    color: #919191;
+    transition: 0.3s;
+}
+
+.footer-icon-con:hover .footer-icon-text {
+    color: black;
+    cursor: pointer;
+}
+
+.footer-icon-con:hover .footer-social-icon {
+    color: black;
+    cursor: pointer;
+}
+
+.btn-model-overview {
+    background-color: #919191;
+    font-size: 16px;
+    font-weight: 600;
+    height: 60px;
+    width: 200px;
+    transition: 0.5s;
+    color: white;
+    margin: 55px 0 0 55px;
+    transition: 00.3s;
+    border: 0px;
+}
+
+.btn-model-overview:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.footer-col-right {
+    height: 160px;
+    flex: 50%;
+    display: flex;
+}
+
+.footer-menu-con {
+    padding: 40px;
+    flex: 50%;
+    height: auto;
+    margin: auto;
+}
+
+.footer-menu {
+    margin-bottom: 20px;
+    color: #919191;
+    transition: 0.1s;
+}
+
+.footer-menu:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Copyright */
+
+.copyright-con {
+    height: 160px;
+}
+
+.copyright-buttons {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-change-lan {
+    font-size: 16px;
+    background-color: white;
+    border: 0;
+    color: #919191;
+}
+
+.btn-change-lan:hover {
+    color: #0062ff;
+    cursor: pointer;
+}
+
+.btn-make-ride-life {
+    font-size: 16px;
+    font-weight: 800;
+    background-color: white;
+    height: 50px;
+    border: 0;
+    border-bottom: 5px solid black;
+}
+
+.copyright-content {
+    font-size: 10px;
+    margin: 50px;
+    color: #919191;
+}
